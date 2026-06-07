@@ -1,0 +1,151 @@
+%PDF-1.4
+%????
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 2435 >>
+stream
+BT /F1 10 Tf 40 800 Td 12 TL
+(Razia Sultana Jui) Tj T*
+(Research Interests: Security & Privacy | Human-Centered Computing) Tj T*
+(+\\(1\\)-682-227-1680 | raziarazzak1@gmail.com | Arlington, TX, USA) Tj T*
+() Tj T*
+(Education) Tj T*
+(BRAC University  Summer 2018 - Fall 2024) Tj T*
+(Bachelor of Science in Computer Science and Engineering) Tj T*
+(CGPA \\(Majors\\): 3.25/4.00) Tj T*
+(Department of Computer Science and Engineering, Dhaka, Bangladesh) Tj T*
+() Tj T*
+(Research Project Experience) Tj T*
+(HarmShield: Identifying and Mitigating Harms in LLM and VLLM-Based Assisting Systems) Tj T*
+(LLM and VLLM Safety, Trauma-Informed Design, Vulnerable system 2026 - Present) Tj T*
+(- Investigating how widely deployed LLM-based agents respond to user disclosures of) Tj T*
+(trauma,) Tj T*
+(partner abuse, and accident crises, with a focus on failure modes that risk) Tj T*
+(re-traumatization,) Tj T*
+(  unsafe advice, or mishandled escalation.) Tj T*
+(- Designing a structured framework grounded in safety, trustworthiness, choice,) Tj T*
+(collaboration,) Tj T*
+(and empowerment principles and translating these into measurable criteria for AI system) Tj T*
+(  behavior, which assists victims in the proper way.) Tj T*
+() Tj T*
+(Empirical Study of Multimodal Hate Meme Detection: Can VLMs See What Text-Only Models) Tj T*
+(Miss?) Tj T*
+(Multimodal ML, VLMs, Content Moderation, Online Harms 2025 - Present) Tj T*
+(- Curated a 117-meme benchmark of visual memes content whose text is superficially) Tj T*
+(benign yet) Tj T*
+(hateful when image and text are interpreted together sourced from Facebook Hateful Memes) Tj T*
+(  and M3 datasets.) Tj T*
+(- Benchmarked 14+ open-source VLMs across five model families and conducted a systematic) Tj T*
+(definition-free vs hate-definition-conditioned study revealing that prompt framing) Tj T*
+(causes) Tj T*
+(  F1 swings up to +0.637 and best overall: Gemma3-27B at F1 = 0.898.) Tj T*
+() Tj T*
+(Identifying Hate Speech in Bangla Language Text Using Natural Language Processing) Tj T*
+(Undergraduate Thesis - NLP, Deep Learning, Hate Speech Detection, Bangla Text) Tj T*
+(Classification 2024 - 2025) Tj T*
+(- Completed undergraduate thesis under the supervision of Mr. Annajiat Alim Rasel and) Tj T*
+(developed) Tj T*
+(  and compared deep learning models leveraging BiLSTM, CNN-LSTM, and transformer-based) Tj T*
+(  architectures \\(mBERT, XLM-R\\) for hate speech detection in Bangla.) Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 2092 >>
+stream
+BT /F1 10 Tf 40 800 Td 12 TL
+(- Designed a preprocessing and normalization pipeline for Bangla text that improved) Tj T*
+(  classification performance and robustness across domains.) Tj T*
+() Tj T*
+(Professional Projects) Tj T*
+(Gift Cards Zone Website Development | WordPress, PHP, CSS | November 2020) Tj T*
+(- Developed a full-stack e-commerce web application for a multi-purpose retail shop.) Tj T*
+(- Implemented subscription-based reviews, sales tracking, and an admin recommendation) Tj T*
+(module.) Tj T*
+() Tj T*
+(Academic Projects) Tj T*
+(Fire and Smoke Detection System using Arduino | C++, Arduino Uno, DHT22, MQ2 | Summer) Tj T*
+(2022) Tj T*
+(- Designed an automated safety system to detect fire, smoke, and gas leaks.) Tj T*
+(- Integrated DHT22 sensors for temperature and humidity monitoring, displaying live data) Tj T*
+(on an LCD.) Tj T*
+() Tj T*
+(Heart Disease Prediction using Machine Learning | Python, Scikit-learn, Pandas, NumPy |) Tj T*
+(Fall 2022) Tj T*
+(- Developed a diagnostic model on a Kaggle dataset of 1,026 entries using KNN, Decision) Tj T*
+(Tree,) Tj T*
+(  and Logistic Regression.) Tj T*
+(- Achieved 93% accuracy with MinMax and Standard Scaler normalization.) Tj T*
+() Tj T*
+(Real Estate Management System | Django, Python, HTML, CSS, JavaScript | Spring 2021) Tj T*
+(- Built a full-stack web platform for property trading with a dynamic 48-hour bidding) Tj T*
+(system.) Tj T*
+(- Engineered role-based access, secure property listings, price filtering, and user) Tj T*
+(verification.) Tj T*
+() Tj T*
+(Highlighted Academic Courses) Tj T*
+(- CSE-423 Computer Graphics) Tj T*
+(- CSE-425 Neural Networks) Tj T*
+(- CSE-420 Compiler Design) Tj T*
+(- CSE-360 Computer Interfacing) Tj T*
+() Tj T*
+(Technical Skills) Tj T*
+(Languages: Python, Java, C, C++, MATLAB, JavaFX, Bash, Assembly, Swing) Tj T*
+(ML / NLP: PyTorch, scikit-learn, pandas, NumPy, BERT, RAG, LLM, VLLM) Tj T*
+(Databases: Oracle, MySQL, SQLite, MongoDB) Tj T*
+(OS: Linux \\(Ubuntu, Kali\\), Windows) Tj T*
+(Version Control: Git, GitHub) Tj T*
+(Frameworks: Django, Node.js, React, JavaFX) Tj T*
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 6 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 456 >>
+stream
+BT /F1 10 Tf 40 800 Td 12 TL
+(Web: HTML, CSS, PHP, Bootstrap, WordPress, JSON, XML) Tj T*
+(Compiler Tools: Flex, Bison, EMU 8086) Tj T*
+(Microcontrollers: Arduino, ATMega 32, Atmel Studio, Proteus 832) Tj T*
+(Writing: LATEX, Beamer, Overleaf) Tj T*
+(Other: NS3, iGraphics, Cisco Packet Tracer, OpenGL) Tj T*
+() Tj T*
+(References) Tj T*
+(Mr. Annajiat Alim Rasel - annajiat@bracu.ac.bd) Tj T*
+(Dr. Muhammad Iqbal Hossain - iqbal.hossain@bracu.ac.bd) Tj T*
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000133 00000 n 
+0000000259 00000 n 
+0000002746 00000 n 
+0000002872 00000 n 
+0000005016 00000 n 
+0000005142 00000 n 
+0000005649 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+5719
+%%EOF

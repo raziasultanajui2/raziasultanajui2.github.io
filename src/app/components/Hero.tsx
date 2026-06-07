@@ -2,7 +2,7 @@ import { Download, Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import profilePhoto from "../../imports/Croped_Jui.png";
-import cvFile from "../../imports/Razia_CV.md";
+import cvFile from "../../imports/Razia_CV.pdf";
 
 const rotatingText =
   "ML RESEARCHER  •  DEVELOPER  •  CSE GRADUATE  •  NLP  •  DEEP LEARNING  •  ";
@@ -110,7 +110,7 @@ export function Hero() {
               </button>
               <a
                 href={cvFile}
-                download="Razia_Sultana_Jui_CV.md"
+                download="Razia_Sultana_Jui_CV.pdf"
                 className="flex items-center gap-2 rounded-full border border-border px-7 py-3 text-sm text-foreground transition-colors hover:border-primary/50 hover:text-primary"
               >
                 Download CV
