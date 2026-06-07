@@ -2,7 +2,7 @@ import { Download, Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import profilePhoto from "../../imports/Croped_Jui.png";
-import cvFile from "../../imports/Razia_CV.pdf";
+import cvFile from "../../../imports/Razia_CV.pdf";
 
 const rotatingText =
   "ML RESEARCHER  •  DEVELOPER  •  CSE GRADUATE  •  NLP  •  DEEP LEARNING  •  ";
@@ -10,7 +10,7 @@ const rotatingText =
 const socials = [
   { Icon: Github, href: "https://github.com", label: "GitHub" },
   { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { Icon: Mail, href: "mailto:raziarazzak1@gmail.com", label: "Email" },
+  { Icon: Mail, href: "mailto:raziasultanajui2@gmail.com", label: "Email" },
 ];
 
 // stats removed per request

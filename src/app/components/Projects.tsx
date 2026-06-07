@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal";
 
 const projects = [
   {
-    title: "HarmShield: Identifying and Mitigating Harms in LLM and VLLM-Based Assisting Systems",
+    title: "HarmShield: Identifying and Mitigating Harms in LLM and VLM-Based Assisting Systems",
     description:
       "Investigating how widely deployed LLM-based agents respond to user disclosures of trauma, partner abuse, and accident crises, with a focus on failure modes that risk re-traumatization, unsafe advice, or mishandled escalation.",
     tags: ["LLM Safety", "Trauma-Informed Design", "Vulnerable Systems"],

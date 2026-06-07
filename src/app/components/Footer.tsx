@@ -4,7 +4,6 @@ const navLinks = [
   { label: "Home", id: "home" },
   { label: "About", id: "about" },
   { label: "Projects", id: "projects" },
-  { label: "Resume", id: "resume" },
   { label: "Skills", id: "skills" },
   { label: "Contact", id: "contact" },
 ];
@@ -12,7 +11,7 @@ const navLinks = [
 const socials = [
   { Icon: Github, href: "https://github.com", label: "GitHub" },
   { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { Icon: Mail, href: "mailto:raziarazzak1@gmail.com", label: "Email" },
+  { Icon: Mail, href: "mailto:raziasultanajui2@gmail.com", label: "Email" },
 ];
 
 export function Footer() {

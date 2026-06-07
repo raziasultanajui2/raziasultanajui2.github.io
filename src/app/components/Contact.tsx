@@ -4,7 +4,7 @@ import { SectionHeading } from "./SectionHeading";
 import { Reveal } from "./Reveal";
 
 const contactInfo = [
-  { Icon: Mail, label: "Email", value: "raziarazzak1@gmail.com", href: "mailto:raziarazzak1@gmail.com", color: "text-pink-400" },
+  { Icon: Mail, label: "Email", value: "raziasultanajui2@gmail.com", href: "mailto:raziasultanajui2@gmail.com", color: "text-pink-400" },
   { Icon: Phone, label: "Phone", value: "+(1)-682-227-1680", href: "tel:+16822271680", color: "text-cyan-400" },
   { Icon: MapPin, label: "Location", value: "Arlington, TX, USA", href: null, color: "text-indigo-400" },
 ];

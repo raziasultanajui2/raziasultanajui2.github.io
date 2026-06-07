@@ -11,7 +11,7 @@ const skillCategories = [
   {
     category: "ML / NLP",
     Icon: Brain,
-    skills: ["PyTorch", "scikit-learn", "pandas", "NumPy", "BERT", "RAG", "LLM", "VLLM"],
+    skills: ["PyTorch", "scikit-learn", "pandas", "NumPy", "BERT", "RAG", "LLM", "VLM"],
   },
   {
     category: "Databases",

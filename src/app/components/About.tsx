@@ -12,8 +12,8 @@ const cards = [
   },
   {
     Icon: FlaskConical,
-    title: "Research",
-    body: "Undergraduate thesis on Bangla hate-speech detection using BiLSTM, CNN-LSTM, mBERT & XLM-R transformer models.",
+    title: "Research Interests",
+    body: "Security & Privacy | Human-Centered Computing, with research spanning RAG, LLM, and VLM projects.",
     accent: "from-pink-500/20 to-pink-500/5",
     iconColor: "text-pink-400",
   },
