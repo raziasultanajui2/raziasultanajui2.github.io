@@ -9,6 +9,14 @@
 
   Run `npm run dev` to start the development server.
 
+  To preview a production build locally:
+
+  ```powershell
+  npm run build
+  npx vite preview
+  # then open the URL shown (usually http://localhost:5173)
+  ```
+
   ## Deploying to GitHub Pages
 
   This repository is set up with a GitHub Actions workflow in `.github/workflows/deploy.yml`.

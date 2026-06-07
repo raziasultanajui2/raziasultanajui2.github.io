@@ -2,7 +2,7 @@ import { Download, Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import { motion, useReducedMotion } from "motion/react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import profilePhoto from "../../imports/Croped_Jui.png";
-import cvFile from "../../imports/JUI_CV_Latest__2_.pdf";
+import cvFile from "../../imports/Razia_CV.md";
 
 const rotatingText =
   "ML RESEARCHER  •  DEVELOPER  •  CSE GRADUATE  •  NLP  •  DEEP LEARNING  •  ";
@@ -13,11 +13,7 @@ const socials = [
   { Icon: Mail, href: "mailto:raziarazzak1@gmail.com", label: "Email" },
 ];
 
-const stats = [
-  { value: "5+", label: "Projects" },
-  { value: "93%", label: "Model Accuracy" },
-  { value: "4", label: "ML Architectures" },
-];
+// stats removed per request
 
 export function Hero() {
   const reduce = useReducedMotion();
@@ -114,7 +110,7 @@ export function Hero() {
               </button>
               <a
                 href={cvFile}
-                download="Razia_Sultana_Jui_CV.pdf"
+                download="Razia_Sultana_Jui_CV.md"
                 className="flex items-center gap-2 rounded-full border border-border px-7 py-3 text-sm text-foreground transition-colors hover:border-primary/50 hover:text-primary"
               >
                 Download CV
@@ -138,28 +134,7 @@ export function Hero() {
             </motion.div>
 
             {/* Stats */}
-            <motion.dl
-              {...fade(0.48)}
-              className="flex justify-center gap-8 pt-4 md:justify-start"
-            >
-              {stats.map((s) => (
-                <div key={s.label} className="text-center md:text-left">
-                  <dt className="sr-only">{s.label}</dt>
-                  <dd
-                    className="font-display text-2xl font-bold"
-                    style={{
-                      background: "var(--brand-gradient)",
-                      WebkitBackgroundClip: "text",
-                      WebkitTextFillColor: "transparent",
-                      backgroundClip: "text",
-                    }}
-                  >
-                    {s.value}
-                  </dd>
-                  <span className="text-xs text-muted-foreground">{s.label}</span>
-                </div>
-              ))}
-            </motion.dl>
+            {/* stats removed */}
           </div>
 
           {/* Right: portrait */}
