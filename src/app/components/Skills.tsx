@@ -6,32 +6,57 @@ const skillCategories = [
   {
     category: "Languages",
     Icon: Code2,
-    skills: ["Python", "Java", "C", "C++", "Matlab", "Bash", "Assembly", "JavaFX", "Gnu-Plot", "Swing"],
+    skills: ["Python", "Java", "C", "C++", "MATLAB", "JavaFX", "Bash", "Assembly", "Swing"],
   },
   {
-    category: "Frameworks & Web",
-    Icon: Layers,
-    skills: ["React", "Django", "Node.js", "HTML", "CSS", "PHP", "Bootstrap", "WordPress", "JSON", "XML"],
-  },
-  {
-    category: "Database & OS",
-    Icon: Database,
-    skills: ["MySQL", "Oracle", "SQLite", "MongoDB", "Windows", "Linux (Kali)", "Ubuntu"],
-  },
-  {
-    category: "ML & Research Tools",
+    category: "ML / NLP",
     Icon: Brain,
-    skills: ["PyTorch", "Scikit-learn", "Pandas", "NumPy", "BiLSTM", "mBERT", "XLM-R", "OpenGL", "NS3"],
+    skills: ["PyTorch", "scikit-learn", "pandas", "NumPy", "BERT", "RAG", "LLM", "VLLM"],
   },
   {
-    category: "Microcontroller & Hardware",
+    category: "Databases",
+    Icon: Database,
+    skills: ["Oracle", "MySQL", "SQLite", "MongoDB"],
+  },
+  {
+    category: "OS",
     Icon: Cpu,
-    skills: ["Arduino", "ATMega 32", "Atmel Studio", "Proteus 832", "Cisco Packet Tracer"],
+    skills: ["Linux (Ubuntu, Kali)", "Windows"],
   },
   {
-    category: "Tools & Version Control",
+    category: "Version Control",
     Icon: Wrench,
-    skills: ["Git", "GitHub", "LaTeX", "Beamer", "Overleaf", "Flex", "Bison", "EMU 8086", "iGraphics"],
+    skills: ["Git", "GitHub"],
+  },
+  {
+    category: "Frameworks",
+    Icon: Layers,
+    skills: ["Django", "Node.js", "React", "JavaFX"],
+  },
+  {
+    category: "Web",
+    Icon: Layers,
+    skills: ["HTML", "CSS", "PHP", "Bootstrap", "WordPress", "JSON", "XML"],
+  },
+  {
+    category: "Compiler Tools",
+    Icon: Wrench,
+    skills: ["Flex", "Bison", "EMU 8086"],
+  },
+  {
+    category: "Microcontrollers",
+    Icon: Cpu,
+    skills: ["Arduino", "ATMega 32", "Atmel Studio", "Proteus 832"],
+  },
+  {
+    category: "Writing",
+    Icon: Wrench,
+    skills: ["LATEX", "Beamer", "Overleaf"],
+  },
+  {
+    category: "Other",
+    Icon: Wrench,
+    skills: ["NS3", "iGraphics", "Cisco Packet Tracer", "OpenGL"],
   },
 ];
 
@@ -47,7 +72,7 @@ export function Skills() {
         <SectionHeading
           eyebrow="Toolbox"
           title="Technical Skills"
-          description="A broad set of languages, frameworks and tools developed across research, academic and professional work."
+          description="Languages, ML/NLP tools, databases, operating systems, frameworks, web technologies and supporting tools from research, academic and professional work."
         />
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

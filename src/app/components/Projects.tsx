@@ -4,57 +4,79 @@ import { Reveal } from "./Reveal";
 
 const projects = [
   {
-    title: "Bangla Hate Speech Detection using NLP",
+    title: "HarmShield: Identifying and Mitigating Harms in LLM and VLLM-Based Assisting Systems",
     description:
-      "Undergraduate thesis research. Developed deep-learning models (BiLSTM, CNN-LSTM, mBERT, XLM-R) to detect hate speech in Bangla text, with a preprocessing pipeline that normalizes Bangla data for higher classification accuracy.",
-    tags: ["Python", "NLP", "Deep Learning", "BiLSTM", "mBERT", "XLM-R", "PyTorch"],
+      "Investigating how widely deployed LLM-based agents respond to user disclosures of trauma, partner abuse, and accident crises, with a focus on failure modes that risk re-traumatization, unsafe advice, or mishandled escalation.",
+    tags: ["LLM Safety", "Trauma-Informed Design", "Vulnerable Systems"],
     github: "https://github.com",
     live: null,
-    period: "2024 – 2025",
+    period: "2026 – Present",
     type: "Research",
     featured: true,
   },
   {
-    title: "Heart Disease Prediction using ML",
+    title: "Empirical Study of Multimodal Hate Meme Detection: Can VLMs See What Text-Only Models Miss?",
     description:
-      "Diagnostic model on a Kaggle dataset of 1,026 entries using KNN, Decision Tree & Logistic Regression. Achieved 93% accuracy with MinMax and Standard scaling, evaluated via confusion matrices, precision, recall and F1-scores.",
-    tags: ["Python", "Scikit-learn", "Pandas", "NumPy", "Machine Learning"],
+      "Curated a 117-meme benchmark of visual memes whose text is superficially benign yet hateful when image and text are interpreted together, and benchmarked 14+ open-source VLMs across five families.",
+    tags: ["Multimodal ML", "VLMs", "Content Moderation"],
     github: "https://github.com",
     live: null,
-    period: "Fall 2022",
+    period: "2025 – Present",
     type: "Academic",
     featured: true,
   },
   {
-    title: "Real Estate Management System",
+    title: "Identifying Hate Speech in Bangla Language Text Using Natural Language Processing",
     description:
-      "Full-stack property-trading platform with a dynamic 48-hour bidding system, role-based access, secure listings and price filtering — reducing transaction costs by 9% for rural buyers.",
-    tags: ["Django", "Python", "JavaScript", "HTML", "CSS"],
+      "Undergraduate thesis that developed and compared deep learning models such as BiLSTM, CNN-LSTM, mBERT, and XLM-R for hate speech detection in Bangla text.",
+    tags: ["NLP", "Deep Learning", "Bangla Text Classification"],
     github: "https://github.com",
     live: null,
-    period: "Spring 2021",
+    period: "2024 – 2025",
     type: "Academic",
     featured: false,
   },
   {
-    title: "Gift Cards Zone – E-commerce Website",
+    title: "Gift Cards Zone Website Development",
     description:
-      "Full-stack e-commerce platform for a multi-purpose retail brand, with subscription-based reviews, sales tracking and admin recommendation features.",
+      "Developed a full-stack e-commerce web application for a multi-purpose retail shop with subscription-based reviews, sales tracking, and an admin recommendation module.",
     tags: ["WordPress", "PHP", "CSS"],
     github: null,
     live: "https://example.com",
-    period: "June 2021",
+    period: "November 2020",
     type: "Professional",
     featured: false,
   },
   {
-    title: "Fire and Smoke Detection System",
+    title: "Fire and Smoke Detection System using Arduino",
     description:
-      "Arduino-based safety system detecting fire, smoke and gas leaks with flame & MQ2 sensors, DHT22 temperature monitoring, an LCD display and a buzzer/LED alert mechanism.",
-    tags: ["C++", "Arduino", "DHT22", "MQ2", "Embedded Systems"],
+      "Designed an automated safety system to detect fire, smoke, and gas leaks using flame and MQ2 sensors, integrated DHT22 monitoring, and implemented buzzer and LED alerts.",
+    tags: ["C++", "Arduino Uno", "DHT22", "MQ2"],
     github: "https://github.com",
     live: null,
     period: "Summer 2022",
+    type: "Academic",
+    featured: false,
+  },
+  {
+    title: "Heart Disease Prediction using Machine Learning",
+    description:
+      "Developed a diagnostic model on a Kaggle dataset of 1,026 entries using KNN, Decision Tree, and Logistic Regression, and achieved 93% accuracy with MinMax and Standard Scaler normalization.",
+    tags: ["Python", "Scikit-learn", "Pandas", "NumPy"],
+    github: "https://github.com",
+    live: null,
+    period: "Fall 2022",
+    type: "Academic",
+    featured: false,
+  },
+  {
+    title: "Real Estate Management System",
+    description:
+      "Built a full-stack web platform for property trading with a dynamic 48-hour bidding system, role-based access, price filtering, and user verification.",
+    tags: ["Django", "Python", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com",
+    live: null,
+    period: "Spring 2021",
     type: "Academic",
     featured: false,
   },
@@ -150,7 +172,7 @@ export function Projects() {
         <SectionHeading
           eyebrow="Selected Work"
           title="Projects"
-          description="Research, professional and academic work across ML, web development and embedded systems."
+          description="Research, professional and academic work across security, privacy, multimodal ML, NLP, web development and embedded systems."
         />
 
         <div className="mb-6 grid gap-6 md:grid-cols-2">
