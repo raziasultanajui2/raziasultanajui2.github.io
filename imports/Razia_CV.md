@@ -28,8 +28,9 @@ NLP, Deep Learning, Hate Speech Detection, Bangla Text Classification 2024 – 2
 
 ## Professional Projects
 
-**Gift Cards Zone Website Development** — WordPress, PHP, CSS — November 2020
-- Developed full-stack e-commerce web application with subscription-based reviews, sales tracking, and admin recommendation module.
+**Trenzo E-commerce Website Development** — Next.js, React, Node.js — 2022
+- Developed a full-stack e-commerce web application for a premium wallet retail brand.
+- Implemented product catalog filtering, cart checkout, and an order tracking module.
 
 ## Academic Projects
 

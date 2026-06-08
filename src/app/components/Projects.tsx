@@ -37,13 +37,13 @@ const projects = [
     featured: false,
   },
   {
-    title: "Gift Cards Zone Website Development",
+    title: "Trenzo E-commerce Website Development",
     description:
-      "Developed a full-stack e-commerce web application for a multi-purpose retail shop with subscription-based reviews, sales tracking, and an admin recommendation module.",
-    tags: ["WordPress", "PHP", "CSS"],
+      "Developed a full-stack e-commerce web application for a premium wallet retail brand. Implemented product catalog filtering, cart checkout, and an order tracking module.",
+    tags: ["Next.js", "React", "Node.js"],
     github: null,
     live: "https://example.com",
-    period: "November 2020",
+    period: "2022",
     type: "Professional",
     featured: false,
   },
