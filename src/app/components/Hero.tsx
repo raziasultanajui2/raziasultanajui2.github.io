@@ -110,7 +110,7 @@ export function Hero() {
               </button>
               <a
                 href={cvFile}
-                download="Razia_Sultana_Jui_CV.pdf"
+                download="Razia_CV.pdf"
                 className="flex items-center gap-2 rounded-full border border-border px-7 py-3 text-sm text-foreground transition-colors hover:border-primary/50 hover:text-primary"
               >
                 Download CV
